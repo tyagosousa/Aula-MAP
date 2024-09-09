@@ -1,11 +1,17 @@
-import React from 'react'
+import './App.css'
+import { useState } from 'react'
 
-interface Props{
-    title: string;
+function App() {
+
+  const [nome, setNome] = useState('Thiago');
+
+  return (
+    <>
+        <h5>{nome}</h5>
+        
+
+    </>
+  )
 }
 
-export const index = ({title}: Props) => {
-    return (
-        <button type='button'>{title}</button>
-    )
-}
+export default App
