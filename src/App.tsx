@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [nome, setNome] = useState('Thiago');
+  const [nome, setNome] = useState('Thiago!');
 
   return (
     <>
